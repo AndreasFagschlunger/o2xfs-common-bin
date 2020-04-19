@@ -1,0 +1,6 @@
+.gradle/
+.vs/
+build/
+*.sln
+*.vcxproj
+*.vcxproj.filters
