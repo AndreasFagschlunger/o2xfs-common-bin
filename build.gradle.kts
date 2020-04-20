@@ -10,7 +10,7 @@ group = "at.o2xfs"
 version = "1.0-SNAPSHOT"
 
 library {
-    linkage.set(listOf(Linkage.STATIC, Linkage.SHARED))
+    linkage.set(listOf(Linkage.STATIC))
     targetMachines.set(listOf(machines.windows.x86, machines.windows.x86_64))
 }
 
